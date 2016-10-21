@@ -1,4 +1,4 @@
 development:
-  dialect: postgres
-  datasource: dbname=crokinolelad sslmode=disable
+  dialect: $DATABASE
+  datasource: dbname=$DBNAME sslmode=disable
   dir: ./migrations
